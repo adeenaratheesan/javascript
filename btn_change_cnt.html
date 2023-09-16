@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first work</title>
+</head>
+<body>
+    <h2>To change paragraph when button Clicks.</h2>
+    <p id="demo">JavaScript can change HTML content</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Hello JavaScript!!!!"'>Click</button>
+
+    <h2>to change size of text when button clicks</h2>
+    <p id="para">to change font size click on the button given below</p>
+    <button type="button" onclick="document.getElementById('para').style.fontSize='35px'"> change font size</button>
+
+
+    <h2>To hide text when button click</h2>
+    <p id="remove">this text will be removed when button clicks</p>
+    <button type="button" onclick="document.getElementById('remove').style.display='none'">Remove </button>
+
+    <h2>To view text when button clicks</h2>
+    <p id="view" style="display: none">Hello</p>
+    <button type="button" onclick="document.getElementById('view').style.display='block'">view</button>
+</body>
+</html>
+
